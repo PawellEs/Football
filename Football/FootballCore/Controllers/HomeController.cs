@@ -12,7 +12,6 @@ namespace FootballCore.Controllers
     {
         public IActionResult Index()
         {
-            Console.WriteLine("Init");
             return View();
         }
 
