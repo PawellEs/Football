@@ -5,11 +5,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Angular\app\app.component.ts" />
+    <None Remove="Angular\app\app.module.ts" />
+    <None Remove="Angular\main.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="Angular\app\app.component.ts" />
+    <TypeScriptCompile Include="Angular\app\app.module.ts" />
+    <TypeScriptCompile Include="Angular\main.ts" />
   </ItemGroup>
 
 </Project>
