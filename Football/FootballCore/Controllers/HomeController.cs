@@ -23,10 +23,8 @@ namespace FootballCore.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Angular()
         {
-            ViewData["Message"] = "Your contact page.";
-
             return View();
         }
 
